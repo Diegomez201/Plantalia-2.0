@@ -1,0 +1,54 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:100%;
+    position: relative;
+    background-image: url('./images/Fondo1.jpg');
+  background-repeat: no-repeat;
+}
+
+.login{
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 30px;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(240, 248, 255, 0.493);
+}
+@media(max-width: 400px){
+ .login{
+    width: 80%;
+ }
+}
+
+.input{
+    padding: 15px;
+    width: 250px;
+    font-size: x-large;
+    
+}
+.formgrupo{
+    font-size: x-large;
+    color: black;
+}
+
+.botonentrar{
+    background-color: rgba(20, 206, 57, 0.496);
+    padding: 20px;
+    width: 280px;
+    font-size: x-large;
+}
+.botonregistro{
+    background-color: rgba(20, 206, 57, 0.496);
+    padding: 20px;
+    width: 280px;
+    font-size: x-large;
+}
+
+
+
